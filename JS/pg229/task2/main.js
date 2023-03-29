@@ -1,0 +1,3 @@
+function generateAlert() {
+    alert("Serhii")
+}

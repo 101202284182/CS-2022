@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+.login-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+}
+
+input[type=text], input[type=password] {
+    margin: 25px;
+    margin-top: 0;
+    padding: 5px;
+    border: 1px solid #649cf0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+}
+
+input[type=button] {
+    margin-right: auto;
+    padding: 8px;
+    border: 1px solid #649cf0;
+    background: none;
+    cursor: pointer;
+}
