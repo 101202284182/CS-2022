@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tickets booking</title>
+</head>
+<body>
+<div class="navbar">
+    <a class="navbar-el" href="/">Home</a>
+    <a class="navbar-el" href="concerts.html">Concerts</a>
+    <a class="navbar-el" href="book.html">Book now!</a>
+</div>
+<div class="containter">
+    <div class="block">
+        <p>Book your ticket now!</p>
+        <form action="submit_user_info.php" method="post" target="_blank">
+            <div class="input-grid">
+                <select name="concert" id="concert">
+                    <option value="0" selected disabled>Chose your concert</option>
+                    <option value="1">Concert1</option>
+                    <option value="2">Concert2</option>
+                    <option value="3">Concert3</option>
+                </select>
+                <input type="text" placeholder="Your name" />
+                <input type="number" placeholder="Your age" />
+                <input type="text" placeholder="Your address" />
+                <input type="number" placeholder="Quanity of tickets" />
+                <input type="email" placeholder="Your email" />
+                <div class="card-info">
+                    <input type="number" placeholder="Card number" />
+                    <input type="month" placeholder="Expiry date" />
+                    <input type="text" placeholder="Cardholder name" />
+                    <input type="number" placeholder="CVC" min="1" max="999"/>
+                </div>
+            </div>
+            <input class="btn" type="submit">
+        </form>
+    </div>
+</div>
+</body>
+</html>
