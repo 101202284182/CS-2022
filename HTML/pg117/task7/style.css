@@ -187,6 +187,7 @@ input:hover, select:hover {
     transition: .2s;
     border-radius: 7px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover {
