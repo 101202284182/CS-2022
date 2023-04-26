@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore-compat.js"></script>
+    <script src="main.js"></script>
+    <title>Home</title>
+</head>
+<body>
+<div class="container">
+    <div class="block">
+        <p>Inputs</p>
+         <div class="input-grid">
+            <input type="number" placeholder="Quantity" id="quantityInput"/>
+            <input type="number" placeholder="Price (in €)" id="priceInput"/>
+            <input type="text" placeholder="Description" id="descriptionInput"/>
+        </div>
+        <div class="btn" onclick="sendRecord()">Send data</div>
+    </div>
+    <div class="block">
+        <table>
+            <thead>
+                <tr>
+                    <td>Quantity</td>
+                    <td>Price</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody id="goodsTable">
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
