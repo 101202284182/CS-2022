@@ -23,29 +23,29 @@
 #TASK 3
 # monthOfBirth = input("Enter your month of birth: ")
 
-# if(monthOfBirth.lower().startswith("jan")):
+# if(monthOfBirth.lower().startswith("sep")):
 #     print("There are 12 months until your birthday")
-# elif(monthOfBirth.lower().startswith("feb")):
-#     print("There are 11 months until your birthday")
-# elif(monthOfBirth.lower().startswith("mar")):
-#     print("There are 10 months until your birthday")
-# elif(monthOfBirth.lower().startswith("apr")):
-#     print("There are 9 months until your birthday")
-# elif(monthOfBirth.lower().startswith("may")):
-#     print("There are 8 months until your birthday")
-# elif(monthOfBirth.lower().startswith("jun")):
-#     print("There are 7 months until your birthday")
-# elif(monthOfBirth.lower().startswith("jul")):
-#     print("There are 6 months until your birthday")
-# elif(monthOfBirth.lower().startswith("aug")):
-#     print("There are 5 months until your birthday")
-# elif(monthOfBirth.lower().startswith("sep")):
-#     print("There are 4 months until your birthday")
 # elif(monthOfBirth.lower().startswith("oct")):
-#     print("There are 3 months until your birthday")
+#     print("There are 11 months until your birthday")
 # elif(monthOfBirth.lower().startswith("nov")):
-#     print("There are 2 months until your birthday")
+#     print("There are 10 months until your birthday")
 # elif(monthOfBirth.lower().startswith("dec")):
+#     print("There are 9 months until your birthday")
+# elif(monthOfBirth.lower().startswith("jan")):
+#     print("There are 8 months until your birthday")
+# elif(monthOfBirth.lower().startswith("feb")):
+#     print("There are 7 months until your birthday")
+# elif(monthOfBirth.lower().startswith("mar")):
+#     print("There are 6 months until your birthday")
+# elif(monthOfBirth.lower().startswith("apr")):
+#     print("There are 5 months until your birthday")
+# elif(monthOfBirth.lower().startswith("may")):
+#     print("There are 4 months until your birthday")
+# elif(monthOfBirth.lower().startswith("jun")):
+#     print("There are 3 months until your birthday")
+# elif(monthOfBirth.lower().startswith("jul")):
+#     print("There are 2 months until your birthday")
+# elif(monthOfBirth.lower().startswith("aug")):
 #     print("There are 1 month until your birthday")
 # else:
 #     print("Sorry, can't find any data for you ;c")
