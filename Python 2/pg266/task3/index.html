@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TASK 3</title>
+</head>
+<body>
+<div class="container">
+    <div class="block">
+        <input type="number" id="targetInput" value="18" style="color: #FFA533; margin-top: auto;">
+        <p style="color: #FFA533">TARGET</p>
+        <div class="button" id="confirm" onclick="thermostatModel()"><span class="iconify" data-icon="pajamas:go-back" style="color: #f76363;"></span></div>
+    </div>
+    <div class="block">
+        <input type="number" id="result" class="circle" disabled>
+    </div>
+    <div class="block">
+        <input type="number" id="actualInput" value="20" style="margin-top: auto;">
+        <p>ACTUAL</p>
+        <div class="button" id="confirm" onclick="thermostatModel()"><span class="iconify" data-icon="ion:checkmark" style="color: #63f763;"></span></div>
+    </div>
+</div>
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
